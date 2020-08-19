@@ -23,9 +23,7 @@ package com.jxiao.aug20;
  */
 public class SortedListToBST109 {
     public TreeNode sortedListToBST(ListNode head) {
-
         return buildTree(head, null);
-
     }
 
     private TreeNode buildTree(ListNode left, ListNode right) {
